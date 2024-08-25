@@ -1,4 +1,4 @@
-# FS-Aula2
+# FS - Aulas [v.2]
 
 > Exercicios do curso do FullStack +praTi - A partir da Aula 42
 
