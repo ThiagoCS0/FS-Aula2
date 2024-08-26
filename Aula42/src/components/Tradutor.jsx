@@ -53,7 +53,7 @@ export default function Tradutor() {
 			<Div>
 				<Div2>
 					<Div3>
-						<Input value={texto} onChange={(e) => { defTexto(e.target.value) }} type="text" placeholder='Texto a ser traduzido...' />
+						<Input value={texto} onChange={(e) => { defTexto(e.target.value) }} onKeyDown={(e) => { if (e.key == "Enter") { Traduzir(); } }} type="text" placeholder='Texto a ser traduzido...' />
 						<Button onClick={Traduzir}>Tradutor</Button>
 					</Div3>
 					{textoSaida && <TextoSaida>{textoSaida}</TextoSaida>}
