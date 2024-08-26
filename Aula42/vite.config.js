@@ -6,6 +6,7 @@ import dotenv from 'dotenv'
 export default defineConfig({
   plugins: [react()],
   define: {
-    'process.env.VITE_K_OMDBAPI': JSON.stringify(process.env.VITE_K_OMDBAPI)
+    'process.env.VITE_K_OMDBAPI': JSON.stringify(process.env.VITE_K_OMDBAPI),
+    'process.env.VITE_K_TMDB': JSON.stringify(process.env.VITE_K_TMDB)
   }
 })
